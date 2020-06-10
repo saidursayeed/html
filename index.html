@@ -2,22 +2,537 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="description" content="Free Web Tutorials">
+	<meta name="refresh" content="30">
 	<title>ssb 276</title>
+	<link rel="stylesheet" href="css/style.css">
+	<!--<base href="https://www.w3schools.com/" target="_blank">-->
+	
 </head>
 <body>
 	
-	<h1>This Is My First HTML</h1>
+	<!--heading part-->
+
+	<h1 style="color:red">This Is My First HTML</h1>
 	<h2>This Is My First HTML</h2>
 	<h3>This Is My First HTML</h3>
 	<h4>This Is My First HTML</h4>
 	<h5>This Is My First HTML</h5>
 	<h6>This Is My First HTML</h6>
 
-	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+	<h1> The abbr element</h1>
+	<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948</p>
+	<p><abbr title="As Soon As Possible">ASAP</abbr></p>
+	<p><abbr title="Hyper Text Markup Language">HTML</abbr></p>
+
+	<!--Address Element-->
+
+	<h1>The Address element</h1>
+
+	<p>Address Element is display like this:</p>
+
+	<address>
+		written by <a href="www.facebook.com/saidurrahman.sayeed"> Saidur Rahman Sayeed</a><br>
+		visit us at:<br>
+		example.com<br>
+		Box- 564, Disneyland<br>
+		USA.
+	</address>
+
+	<!-- Vedio tag-->
+
+	<h1>The Vedio Element</h1>
+
+	<p>
+		<video width="240" height="240" controls>
+			<source src="videos/movie_clip1.mp4" type="video/mp4">
+		</video>
+
+		<video width="240" height="240" controls>
+			<source src="videos/movie_clip2.mp4" type="video/mp4">
+		</video>
 	</p>
 
 
-	<img src="images/jman.jpg" alt="man">
+	<!--Audio Element-->
+
+	<h1>The Audio Element : Click on button to play audio</h1>
+
+	<p>
+		<audio controls>
+		<source src="audios/audio_clip1.mp3" type="audio/mp3">
+		</audio>
+
+	<p>
+		<audio controls>
+			<source src="audios/audio_clip2.mp3" type="audio/mp3">
+		</audio>
+	</p>
+
+	<!--Area and map-->
+
+	<h1>The area and map elements</h1>
+
+	<p>
+		Click on the camera, the coffee cup, to go to a new page and read more about the topic:
+	</p>
+
+	<img src="images/workspace.jpg" alt="workspace" usemap="#workmap" width="400" height="375">
+
+<map name="workmap">
+	<area shape="rect" coords="250, 365, 350, 200" alt="camera" href="camera.html">
+	<area shape="circle" coords="40, 80, 20" alt="cup of coffee" href="coffee_cup.html">
+</map>
+	
+	<!--Article element-->
+	
+	<h1> The Article Element </h1>
+	<article class="all-browsers">
+
+		<h1>Most Popular Browsers</h1>
+
+	<article class="browser">
+		<h2> GOOGLE CHROME </h2>
+		<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+	</article>
+
+	<article class="browser">
+		<h2> Mozilla firefox</h2>
+		<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+	</article>
+
+	<article class="browser">
+		<h2>Microsoft Edge</h2>
+		<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+	</article>
+
+	<!--ASIDE element-->
+
+	<h1> The aside element</h1>
+
+	<p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+	<aside>
+		<h4>Epcot Center</h4>
+		<p>The Epcot center is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.
+		</p>
+	</aside>
+
+		<p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+		
+		<p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+
+
+		<!--b element-->
+
+		<h1>The b element here</h1>
+
+		<p>My family and I visited The <b>Epcot center</b> this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family! </p>
+
+		<p>My family and I visited The <span>Epcot center</span> this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family! </p>
+
+<!--The base Element-->
+
+	<h1>The Base Element Here</h1>
+
+	<p><img src="images/women.jpeg" width="200" height="" alt="women">
+		<br>Notice that we have only specified a relative address for the image. Since we have specified a base URL in the head section, the browser will look for the image at "https://www.w3schools.com/images/stickman.gif".
+	</p>
+
+	<p><a href="tags/tag_base.asp">HTML base tag</a> - Notice that the link opens in a new window, even if it has no target="_blank" attribute. This is because the target attribute of the base element is set to "_blank".
+	</p>
+
+	<!--Basefont-->
+
+	<h1>The basefont Element Here</h1>
+
+	<h1>This is a heading</h1>
+
+	<!--bdi Element-->
+
+	<h1>The bdi Element here</h1>
+
+	<p>In the example below, usernames are shown along with the number of points in a contest. If the bdi element is not supported in the browser, the username of the Arabic user would confuse the text (the bidirectional algorithm would put the colon and the number "90" next to the word "User" rather than next to the word "points").</p>
+
+	<ul>
+	 <li>User <bdi>hrefs</bdi>: 60 points</li>
+	 <li>User <bdi>jdoe</bdi>: 80 points</li>
+	 <li>User <bdi>   </bdi>: 90 points</li>
+	</ul>
+
+	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+	</p>
+
+	<!--bdo elememnt-->
+
+	<h1>The bdo Element Here</h1>
+
+	<p>This paragraph will go left to right </p>
+	<p><bdo dir="rtl">This paragraph will go right to left</bdo></p>
+
+	<!--big element-->
+
+	<h1>The big Element Here</h1>
+
+
+	<p>This is a normal paragraph</p>
+
+	<p class="ex1">This is a paragraph</p>
+
+
+	<p class="ex2"> This is another paragraph</p>
+
+	<!--blockquote-->
+	<h1>The Blockquote Element Here</h1>
+
+	<p>Use CSS to remove the indetation from the blockquote element</p>
+	<p>Here is a quote from WWF's website :</p>
+
+	<blockquote cite="http://www.worldwildlife.org/who/index.html">
+	For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+	</blockquote>
+
+	<!--button element-->
+
+	<h1>The Button Element Here</h1>
+
+	<p>Change the background color of a button with the background-color property:</p>
+
+	<button type="button" class="button1">Click me</button>
+	<button type="button" class="button2">Blue</button>
+	<br>
+
+	<p>Use the :hover selector to change the style of the button when you move the mouse over it.</p>
+
+	<p><strong>Tip:</strong>Use the transition-duration property to determine the speed of the "hover" effect:</p>
+
+	<!--strong element-->
+
+	<h1>The strong Element Here</h1>
+
+	<p> A strong element displayed like this</p>
+
+	<strong>Some important text</strong><br>
+
+	<!--canvas element-->
+
+	<h1>The canvas element here</h1>
+
+	<canvas id="MyCanvas">Your browser is not support this canvas tag</canvas>
+
+	<script>
+		var c = document.getElementById("MyCanvas");
+		var ctx = c.getContext("2d");
+		ctx.fillStyle = "red";
+		ctx.fillRect(20, 20, 75, 50);
+
+		//Turn transparency on
+		ctx.globalAlpha = 0.2;
+		ctx.fillStyle = "blue";
+		ctx.fillRect(50, 50, 75, 50);
+		ctx.fillStyle = "green";
+		ctx.fillRect(80, 80, 75, 50);
+	</script>
+
+	<!--script element-->
+
+	<h1>The script element here</h1>
+	<p id="demo"></p>
+	<script>	
+		document.getElementById("demo").innerHTML = "Hello JAVASCRIPT!";
+	</script>
+
+	<!--caption element-->
+
+	<h1>The caption Element Here</h1>
+
+	<table>
+		<caption>Monthly Savings</caption>
+		<tr>
+			<th>month</th>
+			<th>Savings</th>
+			<th>Expense</th>
+		</tr>
+		<tr>
+			<td>January</td>
+			<td>$100</td>
+			<td>$50</td>
+		</tr>
+		<tr>
+			<td>February</td>
+			<td>$200</td>
+			<td>45</td>
+		</tr>
+		<tr>
+			<td>March</td>
+			<td>$250</td>
+			<td>75</td>
+		</tr>
+	</table>
+
+
+	<!--cite element-->
+
+	<h1>The cite element here</h1>
+
+	<p>The cite element displayed like this</p>
+
+	<p>The<cite> Bidrohi</cite> poem written by Kazi Nazrul Islam</p>
+
+	<!--code element-->
+
+	<h1>The Code Element Here</h1>
+
+	<p>The HTML <code>button</code> tag defines a clickable button.</p>
+	<p>The CSS <code>background-color</code> property defines background color of an element</p>
+
+	<!--colgroup element-->
+
+	<h1>The colgroup Element Here</h1>
+
+	<table>
+		<colgroup>
+			<col span="2" style="background-color: red">
+			<col style="background-color:yellow">
+		</colgroup>
+		<tr>
+			<th>ISBN</th>
+			<th>Title</th>
+			<th>Price</th>
+		</tr>
+		<tr>
+			<td>347856212</td>
+			<td>My First HTML</td>
+			<td>$40</td>
+		</tr>
+		<tr>
+			<td>567894512</td>
+			<td>My First CSS</td>
+			<td>$50</td>
+		</tr>
+	</table>
+
+	<!--data element-->
+
+	<h1>The data Element Here</h1>
+
+	<p>The following example displays product names but also associates each name with a product number:</p>
+
+	<ul>
+		<li><data value="21053">Cherry Tomato</data></li>
+		<li><data value="21054">Beef Tomato</data></li>
+		<li><data value="21055">Snak Tomato</data></li>
+	</ul>
+
+	<ol>
+		<li><data value="21053">Cherry Tomato</data></li>
+		<li><data value="21054">Beef Tomato</data></li>
+		<li><data value="21055">Snak Tomato</data></li>
+	</ol>
+
+	<!--datalist element-->
+
+	<h1>The datalist Element Here</h1>
+
+	<form action="#" method="get">
+		<label for="browser">Choose your browser from the list:</label>
+		<input list="browsers" name="browser" id="browser">
+		<datalist id="browsers">
+			<option value="Chrome">
+			<option value="firefox">	
+			<option value="edge">
+			<option value="opera">	
+			<option value="safari">	
+			<option value="blackmoon">
+		</datalist>
+		<input type="submit">
+	</form>
+
+	<!--dd element-->
+
+	<h1>The dd, dl, dt Element here</h1>
+	<p>These three elements are used to create a description list:</p>
+
+	<dl>
+		<dt>Coffee</dt>
+		<dd>Black hot drink</dd>
+		<dt>Milk</dt>
+		<dd>White cold drink</dd>
+	</dl>
+
+	<img src="images/jman.jpg" alt="man"
+	width="400"><br>
+	<img src="https://images.pexels.com/photos/56866/garden-rose-red-pink-56866.jpeg" alt="rose" width="700">
+
+	<!-- boolean attribute
+	<input type="text" placeholder="Enter Your Name" disabled>-->
+
+	<input type="password" placeholder="Enter Your Password" disabled="">
+	<input type="email" placeholder="Enter Your Email" disabled="disabled">
+
+	<a href="https://web.facebook.com/saidurrahman.sayeed">Facebook link</a>
+	<a href="contacts.html">Contacts Page</a>
+	<a href="assets/list.html">Lists</a>
+
+
+
+	<!--Forms-->
+
+	<h1>The FORM Element Here</h1>
+	<p>Practice of Forms</p>
+	<div class="wrapper">
+	<form action="#" method="get" enctype="multipart/form-data">
+		<label for="details"><p>Put your details here</p></label>
+		<input type="text" placeholder="Your first name here" name="#" class="placeholder">
+		<br>
+		<input type="password" placeholder="Your password" name="#" class="placeholder">
+	</form>
+	</div>
+	
+
+	<!-- del element-->
+
+	<h1>The del and ins element here</h1>
+
+	<p>My favorite color is <del>red</del> <ins>green</ins></p>
+
+	<!--details element-->
+
+	<h1>The details element here</h1>
+
+	<details>
+		<summary>Epcort Center</summary>
+		<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+	</details>
+	<p><b>Note :</b>The details tag is not supported in Edge (prior version 79).</p>
+
+	<!--dfn element-->
+
+	<h1>The dfn element here</h1>
+	<p><dfn><abbr title="Hyper Text Markup Laguage">HTML</abbr></dfn>Standard Markup language for the creating web page.</p>
+
+	<p><dfn id="#html-def">HTML</dfn>is the standard language for creating web pages.</p>
+	<p>Some text is here</p>
+	<p>Some text is here</p>
+	<p> LEARN   <a href="#html-def">HTML</a></p>
+
+	<!--div element-->
+
+	<h1>The div element here</h1>
+
+	<div class="mydiv">
+		<h2>This is a heading in div element</h2>
+		<p>This is some text in div element.</p>
+	</div>
+	<div class="mydiv2">
+		<h1>Some text</h1>
+	</div>
+
+	<!--em element-->
+
+	<h1>The emphasized element here</h1>
+	<p>You <em>like</em> do this work</p>
+	<p>He<em> cannot </em>like play football</p>
+
+	<!--fieldset element-->
+	<h1>The fieldset element here</h1>
+
+	<form actoin="#" method="get" enctype="multipart/form-data">
+		<fieldset>
+			<legend>Personalize</legend>
+			<label for="first_name">First Name :</label>
+			<input type="text" id="first_name" name="first_name"><br><br>
+			<label for="birth_place">Birth Place :</label>
+			<input type="text" id="birth_place" name="birth_place"><br><br>
+			<label for="birth_date">Birth Date :</label>
+			<input type="date" id="birth_date" name="birth_date"><br><br>
+			<input type="button" value="submit">
+		</fieldset>		
+	</form>
+
+	<!--figcaption-->
+
+	<h1>The figcaption element here</h1>
+
+	<figure>
+		<img src="images/camera.jpeg" alt="camera" style="width: 100%">
+		<figcaption>Camera for sale</figcaption>
+	</figure>
+
+	<!--footer element-->
+	<main>
+	<h1>The Footer Element Here</h1>
+
+	<aticle class="all browsers">
+		<h1>Most popular browser</h1>
+		<article class="browser">
+			<h2>Google chrome</h2>
+			<p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+		</article>
+		<article class="browser">
+			<h2>Mozilla firefox</h2>
+			<p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+		</article>
+		<article class="browser">
+			<h2>Microsoft Edge</h2>
+			<p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+		</article>
+	</aticle>
+	</main>
+
+	<footer>
+		<p>author: Hege Refsnse<br>
+			<a href="mailto:hege@example.com">hege@example.com</a>
+		</p>
+	</footer>
+	<!--hr element-->
+
+	<h1>The hr element here</h1>
+
+	<p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+
+	<hr>
+
+	<p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+
+	<hr>
+
+	<p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+
+	<hr>
+
+	<!--iframe element-->
+
+	<h1>The iframe element here</h1>
+
+	<p>An iframe with default borders:</p>
+		<iframe src="images/women.jpg" width="100%" height="300">
+		</iframe>
+
+	<p>An iframe with a thin black border:</p>
+		<iframe src="images/coffee_cup.jpeg" width="100%" height="300" style="border:1px solid black";>
+		</iframe>
+
+	<p>An iframe with no borders:</p>
+		<iframe src="images/jman.jpg" width="100%" height="300" style="border:none;">
+		</iframe>
+
+		<!--mark element-->
+
+	<h1>The mark element here</h1>
+
+	<p>A mark element is displayed like this:</p>
+	<mark>Highlighted text!</mark>
+	<p> Change the default CSS settings to see the effect. </p>
+
+
+
+
+
+
+
+
+
 
 </body>
 </html>

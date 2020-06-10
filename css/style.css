@@ -1,0 +1,205 @@
+h1{
+	font-color: blue;
+	background-color: yellow;
+}
+abbr{
+	color:blue;
+}
+
+.all-browsers {
+	margin: 0;
+	padding: 5px;
+	background-color: lightgray;
+}
+
+.all-browsers > h1, .browser{
+	margin: 10px;
+	padding: 5px;
+}
+
+.browser {
+	background-color: white;
+}
+
+.browser >h2, p{
+	margin: 4px;
+	font-size: 90%;
+}
+
+aside {
+	width: 30%;
+	padding-left: 15px;
+	margin-left: 15px;
+	float: right;
+	font-style: italic;
+	background-color: pink;
+}
+span {
+	color: green;
+}
+
+.ex1{
+	font-size: 30px;
+	color: magenta;
+}
+
+.ex2{
+	font-size: 50px;
+	color: pink;
+}
+	
+blockquote{
+	margin-left: 0;
+}
+.button {
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	transition-duration: 0.4s;
+}
+
+.button1:hover {
+	background-color: lightgreen;
+	border: 2px solid #4CAF50; 
+} /*green*/
+
+.button2:hover {
+	background-color: lightblue;
+	border: 2px solid #008CBA;
+} /*Blue*/
+strong{
+	font-weight: bolder;
+}
+table, th, td{
+	border:1px solid black;
+}
+caption{
+	text-align: right;
+}
+caption{
+	caption-side: bottom;
+}
+cite{
+	color: green;
+	font-weight: bold;
+	font-style: italic;
+}
+code{
+	font-family: Consolas, "curier new";
+	color: crimson;
+	background-color: #f1f1f1;
+	padding: 2px;
+	font-size: 105%;
+}
+dt{
+	color:#de59da;
+}
+
+.wrapper{
+	width: 60%;
+	margin: 0 auto;	
+}
+.row{
+	border: 2px solid green;
+}
+.placeholder{
+	margin: 10px;
+
+}
+del{
+	background-color:red;
+	font-size: 20px;
+	margin: 5px
+	font-weight: bold;
+}
+ins{
+	background-color: green;
+	font-size: 20px;
+	margin: 5px;
+	font-weight: bold;
+}
+details> summary{
+	padding: 4px;
+	width: 200px;
+	background-color: tomato;
+	border: none;
+	box-shadow: 1px 1px 2px lightgray;
+	cursor: pointer;
+	margin: 5px;
+}
+details> p{
+	background-color: lightgreen;
+	border: none;
+	box-shadow: 1px 1px 2px green;
+	padding: 4px;
+	margin: 5px;
+	width: 70%;
+}
+
+.mydiv{
+	border: 5px inset red;
+	background-color: lightblue;
+	text-align: center;
+	width: 70%;
+	margin: 10px;
+}
+.mydiv2{
+	border: 5px outset red;
+	background-color: lightgreen;
+	text-align: center;
+	width: 30%;
+	margin: 10px;
+}
+fieldset{
+	background-color: lightgreen;
+}
+legend{
+	background-color: tomato;
+	color: black;
+	padding: 5px 10px;
+}
+input{
+	margin: 5px;
+}
+figure{
+	border: 5px red solid;
+	padding: 4px;
+	margin: auto;
+}
+figcaption{
+	background-color: black;
+	color: white;
+	padding: 2px;
+	text-align: center;
+	font-style: italic;
+}
+footer{
+	text-align: center;
+  	padding: 3px;
+  	background-color: tomato;
+  	color: white;
+}
+hr{
+	width: 50%;
+	alignment-baseline: center;
+}
+main{
+	margin: 5px;
+	padding: 5px;
+	background-color: tomato;
+}
+main> h1, p, .browser{
+	margin: 10px;
+	padding: 5px;
+}
+mark{
+	background-color: yellow;
+	color: red;
+	margin: 10px;
+}
