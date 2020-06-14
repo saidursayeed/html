@@ -203,3 +203,91 @@ mark{
 	color: red;
 	margin: 10px;
 }
+header{
+	min-height: 100px;
+	background-color: green;
+}
+.wrapper{
+	width: 100%;
+	margin: 0 auto;
+	border: 5px solid red;
+	overflow: hidden;
+}
+.div1{
+	background-color: tomato;
+	width: 60%;
+	margin: 5px auto;
+	float: left;
+	height: 500px;
+}
+.div2{
+	float: right;
+	background-color: gray;
+	width: 35%;
+	height: 500px;
+	margin: 5px auto;
+}
+.wrapper1{
+	margin: 0 auto;
+	border: 5px solid blue;
+	overflow: hidden;
+
+}
+.div3{
+	background-color: yellow;
+	width: 33%;
+	margin: 5px auto;
+	height: 300px;
+	float: left;
+}
+.div4{
+	background-color: lightblue;
+	width: 33%;
+	margin: 5px auto;
+	height: 300px;
+	float: left;
+}
+.div5{
+	background-color: tomato;
+	width: 33%;
+	margin: 5px auto;
+	height: 300px;
+	float: left;
+}
+.wrapper2{
+	margin: 0 auto;
+	border: 5px solid blue;
+	overflow: hidden;
+}
+.div6{
+	background-color: red;
+	width: 24%;
+	margin: 5px auto;
+	height: 300px;
+	float: left;
+}
+.div7{
+	background-color: yellow;
+	width: 24%;
+	margin: 5px auto;
+	height: 300px;
+	float: left;
+}
+.div8{
+	background-color: gray;
+	width: 24%;
+	margin: 5px auto;
+	height: 300px;
+	float: left;
+}
+.div9{
+	background-color: blue;
+	width: 24%;
+	margin: 5px auto;
+	height: 300px;
+	float: left;
+}
+footer{
+	background-color: black;
+	min-height: 100px;
+}
