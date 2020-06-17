@@ -179,7 +179,7 @@ figcaption{
 	text-align: center;
 	font-style: italic;
 }
-footer{
+footer a:hover{
 	text-align: center;
   	padding: 3px;
   	background-color: tomato;
@@ -290,4 +290,25 @@ header{
 footer{
 	background-color: black;
 	min-height: 100px;
+}
+/*
+p:first-child i {
+	background: yellow;
+}
+*/
+
+li:first-child {
+	background-color: yellow;
+}
+
+li:last-child hover {
+	background-color: green;
+}
+/*
+p:nth-child(3n+0){
+	color: tomato;
+}
+*/
+p:nth-child(6) {
+	color: orange;
 }
